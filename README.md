@@ -14,3 +14,6 @@ The second line is the path of the dictionary file, from which you will generate
 e.g. lund hacker -space will yield Lund Hackerspace
 
 Otherwise just pump the dictionary full with words that start with the same letter as one of the acronym's!
+
+#### Usage
+Run backronym-gen.py with python2.7, bask in the resulting backronyms.
