@@ -19,4 +19,4 @@ Otherwise just pump the dictionary full with words that start with the same lett
 Run backronym-gen.py with python2.7, bask in the resulting backronyms.
 
 
-This projected is licensed under the terms of the MIT license.
+This projecte is licensed under the terms of the MIT license.
