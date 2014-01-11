@@ -28,11 +28,8 @@ def fill_dictionary(path):
                 words[letter.capitalize()].add(word)
     return words
 
-def randomize(*iterables):
-    chosen = []
-    for iterable in iterables:
-        chosen.append(random.choice(list(iterable)))
-    return chosen
+def randomize(iterables):
+    return [random.choice(list(iterable)) for iterable in iterables]
 
 def read_config(path):
     with open(path) as f:
@@ -44,7 +41,7 @@ def read_config(path):
 try:
     backronym_string, dict_path = read_config("config.me")
     words = fill_dictionary(dict_path)
-    randomized = randomize(*[words[letter] for letter in backronym_string])
+    randomized = randomize([words[letter] for letter in backronym_string])
     print json.dumps(format_output(*randomized))
 except IOError as e:
     print str(e)
