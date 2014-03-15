@@ -13,7 +13,7 @@ The second line is the path of the dictionary file.
 `-` prepended to a word means that it will be added to the word before it  
 e.g. `lund hacker -space` will yield Lund Hackerspace
 
-Otherwise just pump the dictionary full with words that start with the same letter as one of the acronym's!
+Otherwise just pump the dictionary full with words that start with the same letter as one of the acronyms!
 
 #### Usage
 `python2.7 backronym-gen.py`
